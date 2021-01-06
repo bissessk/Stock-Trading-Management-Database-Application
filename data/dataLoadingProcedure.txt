@@ -1,0 +1,17 @@
+cat regions.csv    | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Regions from stdin csv header"
+
+cat businesses.csv | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Businesses from stdin csv header"
+
+cat testUsers.csv  | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Users   (name,password,workplace,region_in) from stdin csv header"
+
+cat Accounts.csv   | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Own_Accounts (uid,balance) from stdin csv header"
+
+cat Friends.csv    | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Friends_Of from stdin csv header"
+
+cat stocks.csv     | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Stocks from stdin csv header"
+
+cat Records.csv    | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Records (uid, buysell,cost,platform,nShares,ticker) from stdin csv header"
+
+cat exchanges.csv  | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Exchanges from stdin csv header"
+
+cat traded_on.csv  | psql -U kb2784 -d kb2784-db -h localhost -p 5432 -c "copy Traded_On from stdin csv header"
