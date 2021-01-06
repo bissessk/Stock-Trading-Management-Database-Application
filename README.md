@@ -1,5 +1,5 @@
 # Stock-Trading-Management-Database-Application
-** Kieran Bissessar and Skyler Ray DeCoteau
+** Kieran Bissessar and Skyler Ray DeCoteau**
 ---
 This project involves building a stock trading management database application using a web front-end. The
 app is designed to allow a user to view and manage various trades. The user can view the stocks they’re
