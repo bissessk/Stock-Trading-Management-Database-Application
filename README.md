@@ -12,6 +12,6 @@ includes the user, stock, number of shares, date, and platform they used to buy 
 and manage their portfolio as well as view general data within our database to make more informed
 trading decisions.
 
-In this repository, the database desgin can be viewed in the `schema.sqp` file and the front-end can be viewed in the
+In this repository, the database desgin can be viewed in the `schema.sql` file and the front-end can be viewed in the
 `project.py` file. Sample data was provided in the `/data` folder that populates the tables to make it easier
 to test the application.
