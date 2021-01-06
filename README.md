@@ -15,4 +15,4 @@ trading decisions.
 
 In this repository, the database desgin can be viewed in the `schema.sql` file and the front-end can be viewed in the
 `project.py` file. Sample data was provided in the `/data` folder that populates the tables to make it easier
-to test the application.
+to test the application that can be run on a SQL server.
